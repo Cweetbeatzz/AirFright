@@ -191,14 +191,18 @@ h2 {
 .artwork {
     border-radius: 100px;
     animation: rotate 3s linear infinite;
-    /*animation-play-state:paused;*/
+    animation-play-state:paused;
 }
 
-#playsong#OnPlayClicked .artwork{
+/* #playsong#OnPlayClicked .artwork{
     animation-play-state: running;
+} */
+.countrydisplay {
+    display: flex;
 }
-
-
+/* .countrydisplay{
+    display: flex;
+} */
 @keyframes rotate {
     from {
         transform: rotate(0deg)
@@ -232,12 +236,12 @@ section {
 
 
 @media screen and (max-width: 768px) {
-    /*    th {
-        background-color: black;
-    }*/
-
+  
+.countrydisplay {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+}
     tbody {
-        /*background-color: white;*/
         height: 50px;
     }
 
@@ -338,7 +342,7 @@ section {
         }
 
     .carousel {
-        height: 550px;
+        height: 450px;
     }
 
     .exclusivebeats {

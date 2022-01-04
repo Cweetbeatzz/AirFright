@@ -1,9 +1,9 @@
  {% extends 'base.html'%} {% block content %}
 {% load static %}
-<div id="carouselExampleControls" class="carousel slide col-sm-12 m-0 p-0 w-100" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide col-sm-12 m-0 p-0 w-100 bg-danger" data-ride="carousel">
     <div class="carousel-inner m-0 p-0 w-100">
         <div class="carousel-item active carousel">
-            <img class=" overflow-hidden img-thumbnail border-0 w-100 h-100 m-0 p-0" src="{% static '/images/ual_b787-8_livery_170719_wpc_a1-003.jpg'%}">
+            <img class=" overflow-hidden img-thumbnail border-0 w-100  m-0 p-0" src="{% static '/images/ual_b787-8_livery_170719_wpc_a1-003.jpg'%}">
             <div class="carousel-caption d-md-block">
                 <h2 class="display-3 m-0 mt-md-1 mt-sm-0"><strong>SWIFT FLIGHT BOOKINGS</strong></h2>
                 <p><strong>Get access to instant Flight Departures, Arrivals, Time Shedules across different countries instantly...</strong></p>
@@ -19,28 +19,108 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+<br>
 <!-- @*#######################################################################*@ -->
 
 <hr class="m-0 p-0" />
 <!-- @*#######################################################################*@ -->
 
 <div class="container">
-    <div class="row col-sm-12 mx-auto">
-        <div class="col-6 my-auto mx-auto">
-            <div class="col">
-                <h3 class="display-3 font-weight-bold btn-primary py-0 pl-3 pr-2 textshadow2 pb-1 exclusivebeats" id="TXT"><strong>EXCLUSIVE BEATS</strong></h3>
-                <div>
-                    <h6 class="textshadow2"><i>Stay Updated with latest trending beats... </i> <span><a asp-controller="Beats" asp-action="Index" class="btn btn-primary"><strong>EXPLORE BEATS</strong></a></span></h6>
-                </div>
+        <div class="col-sm-12 mx-auto text-center">
+            <br>
+            <h4 class="font-weight-bold text-light" id="textshadow2"><strong>TOP COUNTRIES</strong></h4>
+            <br>
+        </div>
+    <div class="mx-auto ">
+        <div class="mx-auto justify-content-center countrydisplay">
+         <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>CHICAGO</h6>
+            </div>
+        </div>   
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/istockphoto-1268273462-612x612.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>CANADA</h6>
             </div>
         </div>
-        <div class="col-6 mx-auto" @*style="width:100px"*@>
-            <div class="col">
-                <div class="">
-                    <img src="/images/photo-1589903308904-1010c2294adc.jpg" class="overflow-hidden img-thumbnail border-0 w-100 m-0 p-0" />
-                </div>
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/United-Airlines.jpeg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>UNITED KINGDOM</h6>
             </div>
         </div>
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>CHINA</h6>
+            </div>
+        </div>
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>AUSTRALIA</h6>
+            </div>
+        </div>
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>NEW ZEALAND</h6>
+            </div>
+        </div>
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>JAPAN</h6>
+            </div>
+        </div>
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>BRAZIL</h6>
+            </div>
+        </div>
+        <div class="bd-example bd-example-images m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>NEW YORK</h6>
+            </div>
+        </div>
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>MANCHESTER CITY</h6>
+            </div>
+        </div>
+        <!-- <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>SWEDEN</h6>
+            </div>
+        </div>
+        <div class="bd-example bd-example-images  m-1">
+            <div class="text-center">
+                <img src="{% static '/images/jetlinxpilotweb.jpg' %}" class="artwork" height="100" width="100">
+                <hr class="btn-dark">
+                <h6>NIGERIA</h6>
+            </div>
+        </div> -->
+        </div>
+        </div>
+
+      <!-- #################### -->
     </div>
 </div>
 
@@ -54,7 +134,6 @@
     <div class="row text-center">
         <div class="col-12">
             <h4 class="font-weight-bold" id="textshadow2"><strong>CONNECT</strong></h4>
-            <hr class="btn-primary w-25" />
             <br />
         </div>
         <div class="col-12">
