@@ -1,27 +1,27 @@
 <nav class="container navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand text-black" href="#">AIRBOOKS</a>
+    <a class="navbar-brand text-black py-2" href="#"><strong>AIRBOOKS</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
  </button>
 
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-                <a class="nav-link text-black" href="#">HOME <span class="sr-only"></span></a>
+        <ul class="navbar-nav mx-auto ">
+            <li class="nav-item active py-2">
+                <a class="nav-link text-black" href="{% url 'home'%}">HOME <span class="sr-only"></span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="register.html">REGISTER</a>
+            <li class="nav-item py-2">
+                <a class="nav-link text-black" href="/admin/">ADMIN</a>
             </li>
-             <li class="nav-item">
-                <a class="nav-link text-black" href="login.html">LOGIN</a>
+             <li class="nav-item py-2">
+                <a class="nav-link text-black" href="{ % url 'login' %}">LOGIN</a>
             </li>
-             <li class="nav-item">
-                <a class="nav-link text-black" href="contact.html">CONTACT</a>
+             <li class="nav-item py-2">
+                <a class="nav-link text-black" href="{% url 'contact' %}">CONTACT</a>
             </li>
-             <li class="nav-item">
-                <a class="nav-link text-black" href="about.html">ABOUT</a>
+             <li class="nav-item py-2">
+                <a class="nav-link text-black" href="{% url 'about'%}">ABOUT</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown py-2">
                 <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  FLIGHTS RESERVATION
                 </a>
@@ -33,9 +33,10 @@
                 </div>
             </li>
         </ul>
-        <form class="d-flex form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <form class="d-flex form-inline my-2 py-2 my-lg-0">
+            <input class="form-control mr-sm-2 mx-1" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
 </nav>
+    <hr class="m-0">
