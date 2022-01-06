@@ -138,12 +138,16 @@ h2 {
 }
 
 #textshadow2 {
-    text-shadow: .85px .9px 5px #000;
-    color: white;
+    /* text-shadow: .85px .9px 5px #000; */
+    color: rgb(106, 83, 83);
 }
 
 .textshadow2 {
-    text-shadow: .85px .9px 5px #000;
+    /* text-shadow: .85px .9px 5px #000; */
+    color: rgb(106, 83, 83);
+
+    
+
 }
 
 .card {
@@ -201,7 +205,9 @@ h2 {
     display: flex;
 }
 /* .countrydisplay{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(10px, 1fr));
+    -ms-grid-row-align: center;
 } */
 @keyframes rotate {
     from {
