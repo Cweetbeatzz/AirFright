@@ -1,387 +1,360 @@
 a.navbar-brand {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
 }
 
 /* Provide sufficient contrast against white background */
 a {
-    color: #0366d6;
+  color: #0366d6;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-    z-index: 3;
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+  z-index: 3;
 }
 
 .navbar {
-    z-index: 10;
+  z-index: 10;
 }
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-    font-size: 12px;
+  font-size: 12px;
 }
-
 
 /*//#######################################################################################################################*/
 .border-top {
-    border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
 }
 
 .border-bottom {
-    border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
 button.accept-policy {
-    font-size: 1rem;
-    line-height: inherit;
+  font-size: 1rem;
+  line-height: inherit;
 }
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-    /*min-height:100vh;*/
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /*min-height:100vh;*/
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    white-space: nowrap;
-    line-height: 60px; /* Vertically center the text there */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
 }
 
 .box-shadow {
-    box-shadow: 0 .25rem .95rem rgba(0, 0, 0, .7);
+  box-shadow: 0 0.25rem 0.95rem rgba(0, 0, 0, 0.7);
 }
 
-
-
 .carousel-item {
-    overflow: hidden;
+  overflow: hidden;
 }
 /* //############################################################## CONTACT */
 
 .section-title {
-    text-align: center;
-    text-align: center;
-    margin-top: 15px;
-    color: black;
-    justify-content: center;
+  text-align: center;
+  text-align: center;
+  margin-top: 15px;
+  color: black;
+  justify-content: center;
 }
 
 .container-form {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
 }
 
 .card {
-    width: 100%;
+  width: 100%;
 }
 
 .box-shadow {
-    box-shadow: 0 .25rem .95rem rgba(0, 0, 0, .7);
+  box-shadow: 0 0.25rem 0.95rem rgba(0, 0, 0, 0.7);
 }
 
 .name {
-    text-align: center;
+  text-align: center;
 }
 
-
-
 .php-email-form {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .p {
-    text-align: center;
+  text-align: center;
 }
 
 /* //############################################################## ABOUT */
 #TXT {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 h2 {
-    padding: 20px;
-    text-align: center;
-    /* text-shadow: .15px .35px 25px #000; */
+  padding: 20px;
+  text-align: center;
+  /* text-shadow: .15px .35px 25px #000; */
 }
 
 #textshadow {
-    text-shadow: .85px .35px 9px #fff;
-    color: black;
+  text-shadow: 0.85px 0.35px 9px #fff;
+  color: black;
 }
 
 #textshadow2 {
-    /* text-shadow: .85px .9px 5px #000; */
-    color: rgb(106, 83, 83);
+  /* text-shadow: .85px .9px 5px #000; */
+  color: rgb(106, 83, 83);
 }
 
 .textshadow2 {
-    /* text-shadow: .85px .9px 5px #000; */
-    color: rgb(106, 83, 83);
-
-    
-
+  /* text-shadow: .85px .9px 5px #000; */
+  color: rgb(106, 83, 83);
 }
 
 .card {
-    border-radius: 20px;
-    width: 100%;
-    justify-content: center;
-    justify-items: center;
+  border-radius: 20px;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
 }
 
 .box-shadow {
-    box-shadow: 0 .25rem .95rem rgba(0, 0, 0, .7);
+  box-shadow: 0 0.25rem 0.95rem rgba(0, 0, 0, 0.7);
 }
 
 .name {
-    text-align: center;
+  text-align: center;
 }
 
 .form-group {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .p {
-    text-align: center;
+  text-align: center;
 }
 
 .card-img-top {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .overlay {
-    background: linear-gradient(rgba(132, 42, 59, 0.54),rgba(132, 42, 59, 0.54));
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  background: linear-gradient(rgba(132, 42, 59, 0.54), rgba(132, 42, 59, 0.54));
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .catlist {
-    background-color: rgb(0 0 0);
-    font-size: 11.4px !important;
+  background-color: rgb(0 0 0);
+  font-size: 11.4px !important;
 }
 /*#######################################################################################*/
 
 .artwork {
-    border-radius: 100px;
-    animation: rotate 3s linear infinite;
-    animation-play-state:paused;
+  border-radius: 100px;
 }
 
-/* #playsong#OnPlayClicked .artwork{
-    animation-play-state: running;
-} */
 .countrydisplay {
-    display: flex;
+  display: flex;
 }
 /* .countrydisplay{
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(10px, 1fr));
     -ms-grid-row-align: center;
 } */
-@keyframes rotate {
-    from {
-        transform: rotate(0deg)
-    }
-
-    to {
-        transform: rotate(360deg)
-    }
-}
 
 /*#######################################################################################*/
 .newbeats {
-    font-size: small;
+  font-size: small;
 }
 
 .exclusivebeats {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 section {
-    /*display: grid;*/
-    place-content: center;
-    min-height: 10vh;
-    /*background-color: yellowgreen;*/
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+  /*display: grid;*/
+  place-content: center;
+  min-height: 10vh;
+  /*background-color: yellowgreen;*/
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-
-
 
 @media screen and (max-width: 768px) {
-  
-.countrydisplay {
+  .countrydisplay {
     display: grid;
     grid-template-columns: repeat(2, 150px);
-}
-    tbody {
-        height: 50px;
-    }
+  }
+  tbody {
+    height: 50px;
+  }
 
-    thead {
-        display: none;
-    }
+  thead {
+    display: none;
+  }
 
-    td {
-        display: block;
-        text-align: right;
-    }
+  td {
+    display: block;
+    text-align: right;
+  }
 
-        td::before {
-            float: none;
-            margin-right: 3rem;
-            font-weight: bold;
-        }
+  td::before {
+    float: none;
+    margin-right: 3rem;
+    font-weight: bold;
+  }
 
-        td:first-child {
-            background-color: #808080;
-        }
+  td:first-child {
+    background-color: #808080;
+  }
 
+  td:nth-child(2)::before {
+    content: "PRODUCER";
+  }
 
-        td:nth-child(2)::before {
-            content: "PRODUCER";
-        }
+  td:nth-child(3)::before {
+    content: "BEAT TITLE";
+  }
 
-        td:nth-child(3)::before {
-            content: "BEAT TITLE";
-        }
+  td:nth-child(4)::before {
+    content: "TRACK";
+  }
 
-        td:nth-child(4)::before {
-            content: "TRACK";
-        }
+  td:nth-child(5)::before {
+    content: "GENRE";
+  }
 
-        td:nth-child(5)::before {
-            content: "GENRE";
-        }
+  td:nth-child(6)::before {
+    content: "RELEASE DATE";
+  }
 
-        td:nth-child(6)::before {
-            content: "RELEASE DATE";
-        }
-
-        td:nth-child(7)::before {
-            content: "ACTIONS";
-        }
+  td:nth-child(7)::before {
+    content: "ACTIONS";
+  }
 }
 
 /*#########################################################################################################################################*/
 
 .carousel-inner img {
-    position: relative;
-    overflow: hidden;
-    /*backdrop-filter:blur(10px);*/
-    /*opacity:.5;*/
+  position: relative;
+  overflow: hidden;
+  /*backdrop-filter:blur(10px);*/
+  /*opacity:.5;*/
 }
 
 .carousel-caption {
-    position: absolute;
-    top: 40%;
-    transform: translateY(-90%);
+  position: absolute;
+  top: 40%;
+  transform: translateY(-90%);
 }
 
-    .carousel-caption h2 {
-        font-size: 170%;
-        text-transform: uppercase;
-        text-shadow: 5px 5px 10px #000000;
-    }
+.carousel-caption h2 {
+  font-size: 170%;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 10px #000000;
+}
 
 /* .carousel {
     height: 200px;
 } */
 
 .exclusivebeats {
-    font-size: 20px !important;
+  font-size: 20px !important;
 }
 
 /*#########################################################################################################################################*/
 @media (min-width: 1400px) {
 }
 
-
 @media (min-width: 1200px) {
 }
 
 @media (min-width: 992px) {
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-    .carousel-caption {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+  .carousel-caption h2 {
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px #000000;
+  }
 
-        .carousel-caption h2 {
-            font-size: 400%;
-            text-transform: uppercase;
-            text-shadow: 5px 5px 10px #000000;
-        }
+  .carousel {
+    height: 450px;
+  }
 
-    .carousel {
-        height: 450px;
-    }
-
-    .exclusivebeats {
-        font-size: 50px !important;
-    }
+  .exclusivebeats {
+    font-size: 50px !important;
+  }
 }
 
 @media (min-width: 768px) {
-    html {
-        font-size: 12px;
-    }
+  html {
+    font-size: 12px;
+  }
 
-    .carousel-caption {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-        .carousel-caption h2 {
-            font-size: 400%;
-            text-transform: uppercase;
-            text-shadow: 5px 5px 10px #000000;
-        }
+  .carousel-caption h2 {
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px #000000;
+  }
 
-    /* .carousel {
+  /* .carousel {
         height: 550px;
     } */
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
 
 .bg-dark {
-    background-color: #464646;
+  background-color: #464646;
 }
