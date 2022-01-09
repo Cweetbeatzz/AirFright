@@ -7,5 +7,8 @@ def book_view(request):
     return render(request, "book.html")
 
 
+def flights_search_view(request):
+    return render(request, "book_flight_search.html")
+
 def flights_details_view(request):
-    pass
+    return render(request, "flight_details.html")
