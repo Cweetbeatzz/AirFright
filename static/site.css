@@ -243,23 +243,23 @@ section {
   }
 
   td:first-child {
-    background-color: #808080;
+    content: "#";
   }
 
   td:nth-child(2)::before {
-    content: "PRODUCER";
+    content: "AIRLINE LOGO";
   }
 
   td:nth-child(3)::before {
-    content: "BEAT TITLE";
+    content: "COMPANY NAME";
   }
 
   td:nth-child(4)::before {
-    content: "TRACK";
+    content: "FLIGHT NAME";
   }
 
   td:nth-child(5)::before {
-    content: "GENRE";
+    content: "FLIGHT NUMBER";
   }
 
   td:nth-child(6)::before {
@@ -299,6 +299,7 @@ section {
 .exclusivebeats {
   font-size: 20px !important;
 }
+
 
 /*#########################################################################################################################################*/
 @media (min-width: 1400px) {

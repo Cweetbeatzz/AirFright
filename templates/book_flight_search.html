@@ -1,40 +1,39 @@
 {% extends 'base.html'%} {% block content %} {% load static %}
 <br />
-<div class="container card bg-dark box-shadow">
-  <hr />
+<div class="container card  ">
   <br />
   <div class="card-head bg-dark mx-auto my-auto box-shadow w-25 rounded shadow">
     <div class="row justify-content-center mx-auto col-12 pt-2 box-shadow">
-      <h3 class="text-white" id="textshadow">
-        <strong>COUNTRY NAME</strong>
-      </h3>
+      <h4 class="text-white text-center" >
+        <strong>AVAILABLE FLIGHTS</strong>
+      </h4>
     </div>
   </div>
   <br />
-  <div class="card-body bg-dark box-shadow m-4">
+  <div class="card-body bg-light box-shadow m-4">
     <table class="table table-hover table-striped table-responsive-sm">
       <thead>
-        <tr>
-          <th class="text-center text-white">#</th>
-          <th class="text-center text-white">AIRLINE LOGO</th>
-          <th class="text-center text-white">COMPANY NAME</th>
-          <th class="text-center text-white">FLIGHT NAME</th>
+        <tr class="text-dark">
+          <th class="text-center ">#</th>
+          <th class="text-center ">AIRLINE LOGO</th>
+          <th class="text-center ">COMPANY NAME</th>
+          <th class="text-center ">FLIGHT NAME</th>
 
-          <th class="text-center text-white">FLIGHT NUMBER</th>
-          <th class="text-center text-white">ACTIONS</th>
+          <th class="text-center ">FLIGHT NUMBER</th>
+          <th class="text-center ">ACTIONS</th>
         </tr>
       </thead>
 
       <tbody>
-        <tr>
-          <td>1</td>
-          <td class="text-center text-white">
+        <tr class="text-dark">
+          <td class="text-center  py-5">1</td>
+          <td class="text-center py-4">
             <img src="#" class="artwork" height="70" width="70" />
           </td>
-          <td class="text-center text-white py-5"></td>
-          <td class="text-center text-white py-5"></td>
-          <td class="text-center text-white py-5"></td>
-          <td class="text-center text-white py-5">
+          <td class="text-center  py-5"></td>
+          <td class="text-center  py-5"></td>
+          <td class="text-center  py-5"></td>
+          <td class="text-center  py-5">
             <button class="btn btn-primary">BUY TICKET</button>
             <button class="btn btn-info">VIEW DETAILS</button>
           </td>
@@ -49,11 +48,14 @@
             class="text-center my-auto pt-3 text-center"
             style="height: 60px"
           >
-            <h3 class="text-white"><strong>NO FLIGHTS AVAILABLE</strong></h3>
+            <h3 class="text-dark"><strong>NO FLIGHTS AVAILABLE</strong></h3>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 </div>
+  <br />
+  <br />
 {% endblock %}
