@@ -300,7 +300,17 @@ section {
   font-size: 20px !important;
 }
 
-
+#header::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: -50%;
+  right: 0%;
+  width: 2000px;
+  height: 100vh;
+  background: rgba(39, 37, 37, 0.514);
+  z-index: -1;
+}
 /*#########################################################################################################################################*/
 @media (min-width: 1400px) {
 }
