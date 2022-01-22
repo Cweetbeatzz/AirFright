@@ -1,0 +1,1 @@
+web: gunicorn Airbooks.wsgi --log-file -
