@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     # white noise heroku deploy middlewaree
-    "whitenoise.middlware.WhiteNoiseMiddelware",
+    # "whitenoise.middlware.WhiteNoiseMiddelware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
